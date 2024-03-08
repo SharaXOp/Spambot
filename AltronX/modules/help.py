@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝗦𝗛𝗔𝗥𝗔 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘�
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  "https://telegra.ph/file/3ee5c13390412705edda4.jpg",
+                                  "https://telegra.ph/SHARA-x-MUSIC-BOT-IMAGE-02-12.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
