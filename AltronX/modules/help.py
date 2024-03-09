@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝗦𝗛𝗔𝗥𝗔 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ʟᴇɢᴇɴᴅ: @SHARA_XD**"
+PythonHelp = f"★ 𝗦𝗛𝗔𝗥𝗔 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ʟᴇɢᴇɴᴅ: @PROFFESOR_03**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SharaXAssociation"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DangerX_zone")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/fuxcedyou"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fuxcedyou")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @SHARA_XD**
+**© @PROFFESOR_03**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @SHARA_XD**
+**© @PROFFESOR_03**
 """
 
 spam_msg = f"""
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SharaXAssociation"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DangerX_zone")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/fuxcedyou"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fuxcedyou")
            ],
            ],
         )           
    else:
-        await event.answer("Make Your Own Tosu Bots !! @SHARA_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu Bots !! @PROFFESOR_03", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Make Your Own Tosu Bots !! @SHARA_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu Bots !! @PROFFESOR_03", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Make Your Own Tosu bots !! @SHARA_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu bots !! @PROFFESOR_03", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Make Your Own Tosu Bots !! @SHARA_XD", cache_time=0, alert=True)
+        await event.answer("Make Your Own Tosu Bots !! @PROFFESOR_03", cache_time=0, alert=True)
